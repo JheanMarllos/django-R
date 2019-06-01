@@ -16,7 +16,7 @@ class RView(TemplateView):
         context = super(RView, self).get_context_data(**kwargs)
         if self.request.user.is_superuser is False:
             raise Http404
-        context['dbs'] = R.run_query(r..query.db_list())
+        context['dbs'] = R.run_query(r.query.db_list())
         return context
 
 
