@@ -16,7 +16,7 @@ Install
   ```python
 pip install rethinkdb geojson jsonschema djangoajax six python-dateutil
 pip install git+https://github.com/dmpayton/reqon.git
-pip install git+https://github.com/synw/django-R.git
+pip install git+https://github.com/JheanMarllos/django-R.git
   ```
 
 Installed apps:
