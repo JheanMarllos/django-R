@@ -15,7 +15,7 @@ setup(
     license='BSD License',  # example license
     description='A simple Django app to conduct Web-based polls.',
     long_description=README,
-    url='https://github.com/synw/django-R',
+    url='https://github.com/JheanMarllos/django-R',
     author='Jhean',
     author_email='jhean@arbid.com.br',
     classifiers=[
